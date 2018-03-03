@@ -12,7 +12,7 @@ namespace WcfService1
     [ServiceContract]
     public interface IService1
     {
-        /* added a comment */
+        /* added a comment      */
         [OperationContract]
         string GetData(int value);
 
